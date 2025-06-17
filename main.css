@@ -1,0 +1,42 @@
+.colorsDiv {
+  display: flex;
+  justify-content: center;
+}
+.colorsDiv ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.colorsDiv ul li {
+  width: 50px;
+  height: 50px;
+  opacity: 0.4;
+}
+.colorsDiv ul li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.colorsDiv ul li[data-color="red"] {
+  background-color: red;
+}
+.colorsDiv ul li[data-color="green"] {
+  background-color: green;
+}
+.colorsDiv ul li[data-color="blue"] {
+  background-color: blue;
+}
+.colorsDiv ul li[data-color="black"] {
+  background-color: black;
+}
+
+.mainDiv {
+  background-color: red;
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.active {
+  opacity: 1 !important;
+}
